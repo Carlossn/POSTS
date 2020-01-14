@@ -64,7 +64,7 @@ finish = time.perf_counter()
 print(f'running time: {finish-start} second(s)')
 
 ##### 2) MULTIPROCESSING
-# A) Manual Multiprocess
+ A) Manual Multiprocess
 start = time.perf_counter()
 if __name__=='__main__':
     p1 = multiprocessing.Process(target=cpu_task)
